@@ -27,3 +27,15 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Ser
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\obj\Debug\net5.0\ref\FreeCourse.Services.Discount.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\obj\Debug\net5.0\FreeCourse.Services.Discount.pdb
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\obj\Debug\net5.0\FreeCourse.Services.Discount.genruntimeconfig.cache
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Dapper.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Dapper.Contrib.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Npgsql.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\FreeCourse.Shared.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\FreeCourse.Shared.pdb
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Discount\FreeCourse.Services.Discount\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
