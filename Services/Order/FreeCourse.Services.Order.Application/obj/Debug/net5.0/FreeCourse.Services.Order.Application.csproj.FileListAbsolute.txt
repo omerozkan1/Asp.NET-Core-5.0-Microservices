@@ -17,3 +17,5 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Order\FreeCourse.Servic
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Order\FreeCourse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Services.Order.Domain.Core.pdb
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Order\FreeCourse.Services.Order.Application\obj\Debug\net5.0\FreeCourse.Services.Order.Application.csprojAssemblyReference.cache
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Order\FreeCourse.Services.Order.Application\obj\Debug\net5.0\FreeCourse.Services.Order.Application.csproj.CopyComplete
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Order\FreeCourse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Shared.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Order\FreeCourse.Services.Order.Application\bin\Debug\net5.0\FreeCourse.Shared.pdb

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "h2uFpYK7M1GqnWxhh7Ov8oyuRJEYs/OULzfSE9qwOJH+61go2XKp1cZYZ80xG5ViQSBOb6Al/Xpy7kAkISd6kQ==",
+  "dgSpecHash": "8Y4RxPHkwprA1icqO+21j5ozbfzvbu522yi9f9Oc/UZtxDGBveWb9nTIbQhGz4jrHPBCg8rUvR3IhpASRbs4jA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ÖmerÖzkan\\source\\repos\\Microservices\\Services\\Order\\FreeCourse.Services.Order.Application\\FreeCourse.Services.Order.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

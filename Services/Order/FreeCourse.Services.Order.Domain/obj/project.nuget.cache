@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XH0m4JLwKfOM/FJ0gMgOc5o18FUh6IAC1u1W5APxDwOHaMfOvFlMwZzxC/dl7Zdy/YDCedLwW1ex82zxZqVyNQ==",
+  "dgSpecHash": "n/U/haa8VGKz/vWMeamX+pRnhff1a+c7Ls8X7Nic2bs4Nv0BEory0MWrDwSkZmXa5uv4YodVmsRWPdMC0m8SZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ÖmerÖzkan\\source\\repos\\Microservices\\Services\\Order\\FreeCourse.Services.Order.Domain\\FreeCourse.Services.Order.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
