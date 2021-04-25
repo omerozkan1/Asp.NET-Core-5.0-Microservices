@@ -44,3 +44,9 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\ref\FreeCourse.Web.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.pdb
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.genruntimeconfig.cache
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
