@@ -30,8 +30,9 @@ namespace FreeCourse.Web
             services.Configure<ClientSetting>(Configuration.GetSection("ClientSettings"));
             services.Configure<ServiceApiSetting>(Configuration.GetSection("ServiceSettings"));
             services.AddHttpContextAccessor();
+            services.AddScoped<ResourceOwnerPasswordTokenHandler>();
 
-            var serviceApiSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSetting>();
+            var serviceApiSettings = Configuration.GetSection("ServiceSettings").Get<ServiceApiSetting>();
             services.AddHttpClient<IIdentityService, IdentityService>();
             services.AddHttpClient<IUserService, UserService>(opt =>
             {
