@@ -10,9 +10,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace FreeCourse.Web
 {
@@ -34,14 +31,18 @@ namespace FreeCourse.Web
 
             services.AddScoped<ResourceOwnerPasswordTokenHandler>();
             services.AddScoped<ISharedIdentityService, SharedIdentityService>();
-
+            services.AddScoped<ClientCredentialTokenHandler>();
 
             var serviceApiSettings = Configuration.GetSection("ServiceSettings").Get<ServiceApiSetting>();
+
+            services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
             services.AddHttpClient<IIdentityService, IdentityService>();
+
             services.AddHttpClient<ICatalogService, CatalogService>(opt =>
             {
                 opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayBaseUri}/{serviceApiSettings.Catalog.Path}");
-            });
+            }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
             services.AddHttpClient<IUserService, UserService>(opt =>
             {
                 opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
