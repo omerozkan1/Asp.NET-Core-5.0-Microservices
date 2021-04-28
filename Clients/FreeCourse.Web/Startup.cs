@@ -34,6 +34,10 @@ namespace FreeCourse.Web
 
             var serviceApiSettings = Configuration.GetSection("ServiceSettings").Get<ServiceApiSetting>();
             services.AddHttpClient<IIdentityService, IdentityService>();
+            services.AddHttpClient<ICatalogService, CatalogService>(opt =>
+            {
+                opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayBaseUri}/{serviceApiSettings.Catalog.Path}");
+            });
             services.AddHttpClient<IUserService, UserService>(opt =>
             {
                 opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
