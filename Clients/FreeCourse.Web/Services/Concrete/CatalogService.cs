@@ -54,7 +54,7 @@ namespace FreeCourse.Web.Services.Concrete
 
         public async Task<List<CourseViewModel>> GetAllCourseByUserIdAsync(string userId)
         {
-            var response = await _httpClient.GetAsync($"courses/GetAllByUserId{userId}");
+            var response = await _httpClient.GetAsync($"courses/GetAllByUserId/{userId}");
             if (!response.IsSuccessStatusCode)
             {
                 return null;

@@ -129,3 +129,4 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Courses\Index.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\IdentityModel.AspNetCore.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Courses\Create.cshtml.g.cs
