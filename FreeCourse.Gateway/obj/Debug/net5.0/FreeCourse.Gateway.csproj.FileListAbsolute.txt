@@ -39,3 +39,4 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\FreeCourse.Gateway\obj\Debug\net
 C:\Users\ÖmerÖzkan\source\repos\Microservices\FreeCourse.Gateway\obj\Debug\net5.0\ref\FreeCourse.Gateway.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\FreeCourse.Gateway\obj\Debug\net5.0\FreeCourse.Gateway.pdb
 C:\Users\ÖmerÖzkan\source\repos\Microservices\FreeCourse.Gateway\obj\Debug\net5.0\FreeCourse.Gateway.genruntimeconfig.cache
+C:\Users\ÖmerÖzkan\source\repos\Microservices\FreeCourse.Gateway\obj\Debug\net5.0\FreeCourse.Gateway.csprojAssemblyReference.cache

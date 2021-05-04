@@ -1,7 +1,6 @@
 ﻿using FreeCourse.Shared.Dtos;
 using FreeCourse.Web.Models.Basket;
 using FreeCourse.Web.Services.Interfaces;
-using System;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
