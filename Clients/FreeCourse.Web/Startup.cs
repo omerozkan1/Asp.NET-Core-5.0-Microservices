@@ -1,7 +1,7 @@
 using FluentValidation.AspNetCore;
 using FreeCourse.Web.Extensions;
 using FreeCourse.Web.Models;
-using FreeCourse.Web.Validators;
+using FreeCourse.Web.Validators.Course;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
