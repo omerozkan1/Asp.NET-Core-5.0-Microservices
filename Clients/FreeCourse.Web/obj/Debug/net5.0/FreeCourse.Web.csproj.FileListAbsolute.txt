@@ -96,7 +96,6 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\FreeCourse.Shared.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\FreeCourse.Shared.pdb
-C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.csprojAssemblyReference.cache
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.AssemblyInfoInputs.cache
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.AssemblyInfo.cs
@@ -112,9 +111,11 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.TagHelpers.output.cache
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.RazorCoreGenerate.cache
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Auth\SignIn.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Basket\Index.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Courses\Create.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Courses\Index.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Courses\Update.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Home\Detail.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -131,4 +132,6 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\ref\FreeCourse.Web.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.pdb
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.genruntimeconfig.cache
-C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Home\Detail.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

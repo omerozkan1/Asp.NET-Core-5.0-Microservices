@@ -1,9 +1,7 @@
-using FreeCourse.Shared.Services;
-using FreeCourse.Web.Handler;
-using FreeCourse.Web.Helpers;
+using FluentValidation.AspNetCore;
+using FreeCourse.Web.Extensions;
 using FreeCourse.Web.Models;
-using FreeCourse.Web.Services.Concrete;
-using FreeCourse.Web.Services.Interfaces;
+using FreeCourse.Web.Validators;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,29 +28,9 @@ namespace FreeCourse.Web
             services.Configure<ServiceApiSetting>(Configuration.GetSection("ServiceSettings"));
 
             services.AddHttpContextAccessor();
-
             services.AddAccessTokenManagement();
-            services.AddSingleton<PhotoHelper>();
-            services.AddScoped<ResourceOwnerPasswordTokenHandler>();
-            services.AddScoped<ISharedIdentityService, SharedIdentityService>();
-            services.AddScoped<ClientCredentialTokenHandler>();
 
-            var serviceApiSettings = Configuration.GetSection("ServiceSettings").Get<ServiceApiSetting>();
-
-            services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
-            services.AddHttpClient<IIdentityService, IdentityService>();
-            services.AddHttpClient<ICatalogService, CatalogService>(opt =>
-            {
-                opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayBaseUri}/{serviceApiSettings.Catalog.Path}");
-            }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
-            services.AddHttpClient<IPhotoStockService, PhotoStockService>(opt =>
-            {
-                opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayBaseUri}/{serviceApiSettings.PhotoStock.Path}");
-            }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
-            services.AddHttpClient<IUserService, UserService>(opt =>
-            {
-                opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
-            }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+            services.AddDependencies(Configuration);
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, opt =>
             {
@@ -61,7 +39,7 @@ namespace FreeCourse.Web
                 opt.SlidingExpiration = true;
                 opt.Cookie.Name = "WebCookie";
             });
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddFluentValidation(fv=> fv.RegisterValidatorsFromAssemblyContaining<CourseCreateInputValidator>()); // RegisterValidatorsFromAssemblyContaining=> ilgili assembly içerisindeki tüm validatorlarý verir.
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -75,6 +53,7 @@ namespace FreeCourse.Web
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+          
             app.UseStaticFiles();
 
             app.UseRouting();

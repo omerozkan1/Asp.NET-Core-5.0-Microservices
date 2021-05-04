@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.IdentityModel.Tokens.Jwt;
 
@@ -34,6 +35,10 @@ namespace FreeCourse.Services.Basket
                 options.Authority = Configuration["IdentityServerUrl"];
                 options.Audience = "resource_basket";
                 options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateAudience = false
+                };
             });
 
             services.AddHttpContextAccessor();
@@ -44,12 +49,15 @@ namespace FreeCourse.Services.Basket
             services.AddSingleton<RedisService>(sp =>
             {
                 var redisSettings = sp.GetRequiredService<IOptions<RedisSettings>>().Value;
+
                 var redis = new RedisService(redisSettings.Host, redisSettings.Port);
+
                 redis.Connect();
+
                 return redis;
             });
 
-            services.AddControllers(opt=>
+            services.AddControllers(opt =>
             {
                 opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
             });

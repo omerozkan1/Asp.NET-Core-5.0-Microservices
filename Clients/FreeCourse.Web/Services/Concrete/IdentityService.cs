@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using System.Net.Http;
 using System.Security.Claims;
 using System.Text.Json;
@@ -50,7 +51,7 @@ namespace FreeCourse.Web.Services.Concrete
                 ClientId = _clientSetting.WebClientForUser.ClientId,
                 ClientSecret = _clientSetting.WebClientForUser.ClientSecret,
                 RefreshToken = refreshToken,
-                Address = discovery.TokenEndpoint
+                Address = discovery.TokenEndpoint,
             };
 
             var token = await _httpClient.RequestRefreshTokenAsync(refreshTokenRequest);

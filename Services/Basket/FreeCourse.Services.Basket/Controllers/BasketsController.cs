@@ -2,6 +2,7 @@
 using FreeCourse.Services.Basket.Services;
 using FreeCourse.Shared.Base;
 using FreeCourse.Shared.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -19,6 +20,7 @@ namespace FreeCourse.Services.Basket.Controllers
             _sharedIdentityService = sharedIdentityService;
         }
 
+
         [HttpGet]
         public async Task<IActionResult> GetBasket()
         {
@@ -28,6 +30,7 @@ namespace FreeCourse.Services.Basket.Controllers
         [HttpPost]
         public async Task<IActionResult> SaveOrUpdateBasket(BasketDto basketDto)
         {
+            basketDto.UserId = _sharedIdentityService.GetUserId;
             var response = await _basketService.SaveOrUpdate(basketDto);
             return CreateActionResultInstance(response);
         }
