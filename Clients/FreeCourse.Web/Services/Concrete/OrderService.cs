@@ -53,7 +53,7 @@ namespace FreeCourse.Web.Services.Concrete
 
             basket.BasketItems.ForEach(x =>
             {
-                var orderItem = new OrderItemCreateInput { ProductId = x.CourseId, Price = x.Price, PictureUrl = "", ProductName = x.CourseName };
+                var orderItem = new OrderItemCreateInput { ProductId = x.CourseId, Price = x.GetCurrentPrice, PictureUrl = "", ProductName = x.CourseName };
                 orderCreateInput.OrderItems.Add(orderItem);
             });
 
@@ -61,9 +61,12 @@ namespace FreeCourse.Web.Services.Concrete
             if (!response.IsSuccessStatusCode)
             {
                 return new OrderCreatedViewModel() { Error = "Sipariş oluşturulamadı", IsSuccessful = false };
-            }
+            }          
 
-            return await response.Content.ReadFromJsonAsync<OrderCreatedViewModel>();
+            var orderCreatedViewModel = await response.Content.ReadFromJsonAsync<Response<OrderCreatedViewModel>>();
+            orderCreatedViewModel.Data.IsSuccessful = true;
+            await _basketService.Delete();
+            return orderCreatedViewModel.Data;
         }
 
         public async Task<List<OrderViewModel>> GetOrder()

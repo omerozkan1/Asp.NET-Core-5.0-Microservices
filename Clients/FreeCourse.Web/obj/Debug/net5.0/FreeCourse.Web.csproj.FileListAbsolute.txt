@@ -136,3 +136,5 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\FreeCourse.Web.csprojAssemblyReference.cache
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\obj\Debug\net5.0\Razor\Views\Order\SuccessfulCheckout.cshtml.g.cs

@@ -40,8 +40,15 @@ using FreeCourse.Web.Models.Basket;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\ÖmerÖzkan\source\repos\Microservices\Clients\FreeCourse.Web\Views\_ViewImports.cshtml"
+using FreeCourse.Web.Models.Order;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c0b4ddfabc77a5e693247711521723aacff4c76", @"/Views/Home/Detail.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c236550418592d75369f943547494186bd1346fd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"69962e67833e25c23c87ef5eba8a5d2bafe877fc", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Detail : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CourseViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Basket", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -122,7 +129,7 @@ WriteAttributeValue("", 176, Model.StockPictureUrl, 176, 22, false);
 #line hidden
 #nullable disable
             WriteLiteral(" ₺</h4>\r\n                <div class=\"d-grid\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c0b4ddfabc77a5e693247711521723aacff4c766832", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c0b4ddfabc77a5e693247711521723aacff4c767043", async() => {
                 WriteLiteral("Sepete Ekle");
             }
             );
