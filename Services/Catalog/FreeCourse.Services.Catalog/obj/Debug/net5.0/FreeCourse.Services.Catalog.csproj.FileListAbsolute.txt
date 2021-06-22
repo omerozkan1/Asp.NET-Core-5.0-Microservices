@@ -50,3 +50,14 @@ C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Serv
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net5.0\ref\FreeCourse.Services.Catalog.dll
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net5.0\FreeCourse.Services.Catalog.pdb
 C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net5.0\FreeCourse.Services.Catalog.genruntimeconfig.cache
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\Automatonymous.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\GreenPipes.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\MassTransit.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\MassTransit.RabbitMqTransport.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\NewId.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\ÖmerÖzkan\source\repos\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net5.0\RabbitMQ.Client.dll

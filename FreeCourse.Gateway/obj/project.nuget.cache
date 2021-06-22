@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mqLY81sN/AtzGpOGSoq35K8OhRJe+8oo31PQ3/ajB1jt7Y01I5+xU//TVc5xxif+BmPySek39Aqwt/0Fnlllag==",
+  "dgSpecHash": "I/U+Prfyon5Mu4g1ZK2VDf+nXzApV8VuCnxDTu83F86ENkI29U+ZACGKXmU7Kaqr2Wvo7iVTtNCpVuKhgV+B7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ÖmerÖzkan\\source\\repos\\Microservices\\FreeCourse.Gateway\\FreeCourse.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\identitymodel\\5.1.0\\identitymodel.5.1.0.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.0\\microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\5.0.0\\microsoft.aspnetcore.middlewareanalysis.5.0.0.nupkg.sha512",
@@ -22,7 +23,9 @@
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\ocelot\\17.0.0\\ocelot.17.0.0.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\system.text.encodings.web\\5.0.1\\system.text.encodings.web.5.0.1.nupkg.sha512",
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
